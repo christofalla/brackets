@@ -2,7 +2,7 @@ module.exports = function check(str, bracketsConfig) {
   // your solution
 
     let array = bracketsConfig.map(elem => elem.join(""));
-    for (let i = 0 ; i < array.length; i++) {
+    for (let i = 0 ; i < array.length; i = i + 1) {
 
          if (str.includes(array[i])) {
 
